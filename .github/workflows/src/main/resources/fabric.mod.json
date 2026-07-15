@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "clickaura",
+    "version": "${version}",
+    "name": "Click Aura",
+    "description": "Undetected Click Aura with Grim bypass",
+    "authors": ["HackerAI"],
+    "license": "MIT",
+    "icon": "assets/clickaura/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "net.hackerai.clickaura.ClickAuraMod"
+        ]
+    },
+    "mixins": [
+        "clickaura.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.18.0",
+        "fabric-api": "*",
+        "minecraft": "1.21.11",
+        "java": ">=21"
+    }
+}
