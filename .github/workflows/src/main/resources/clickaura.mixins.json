@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "net.hackerai.clickaura.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "client": [
+        "ClientPlayerInteractionManagerMixin",
+        "GameRendererMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
